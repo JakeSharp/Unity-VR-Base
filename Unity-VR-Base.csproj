@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DDD55CFA-F2CF-8E8A-608F-97B451E3DDFD}</ProjectGuid>
+    <ProjectGuid>{26975902-F227-9D91-DF47-A91E82A1A3A2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -345,18 +345,6 @@
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Util.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\VelocityEstimator.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Hints\Scripts\ControllerButtonHints.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArcheryTarget.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Arrow.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArrowHand.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArrowheadRotation.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Balloon.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonColliders.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonHapticBump.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonSpawner.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ExplosionWobble.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\FireSource.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Longbow.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\SoundBowClick.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\ControllerHintsExample.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\InteractableExample.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\AllowTeleportWhileAttachedToHand.cs" />
@@ -395,62 +383,6 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\Arrow.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\ArrowNotch.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\ArrowSpawner.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\BowAim.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\BowAnimation.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\BowHandle.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\Follow.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\AutoRotation.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Breakable_Cube.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\ButtonReactor.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Controller_Hand.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Controller_Menu.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\ControlReactor.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\ExampleSceneSimulatorCameraRigMover.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\ExcludeTeleport.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\FireExtinguisher_Base.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\FireExtinguisher_Sprayer.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Gun.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\HandLift.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Lamp.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\LightSaber.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Menu_Color_Changer.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Menu_Container_Object_Colors.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Menu_Object_Spawner.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\ModelVillage_TeleportLocation.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\MoveBlock.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Openable_Door.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\PanelMenu\PanelMenuDemoFlyingSaucer.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\PanelMenu\PanelMenuDemoSphere.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\PanelMenu\PanelMenuUIGrid.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\PanelMenu\PanelMenuUISlider.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RC_Car.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RC_Car_Controller.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RealGun.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RealGun_SafetySwitch.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RealGun_Slide.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Remote_Beam.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Remote_Beam_Controller.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\RendererOffOnDash.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\SceneChanger.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\SnapDropZoneGroup_Switcher.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Sphere_Spawner.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Sword.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Tests\VRTK_BaseTest.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Tests\VRTK_ControllerReference_Setup.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\UI_Interactions.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\UI_Keyboard.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\UseRotate.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_ControllerAppearance_Example.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_ControllerEvents_ListenerExample.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_ControllerInteract_ListenerExample.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_ControllerPointerEvents_ListenerExample.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_ControllerUIPointerEvents_ListenerExample.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\VRTK_RoomExtender_ControllerExample.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Whirlygig.cs" />
-    <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Zipline.cs" />
     <Compile Include="Assets\VRTK\Prefabs\Resources\Scripts\VRTK_ConsoleViewer.cs" />
     <Compile Include="Assets\VRTK\Prefabs\Resources\Scripts\VRTK_ControllerRigidbodyActivator.cs" />
     <Compile Include="Assets\VRTK\Prefabs\Resources\Scripts\VRTK_ControllerTooltips.cs" />
