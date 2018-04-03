@@ -16,6 +16,8 @@ public class MaterialController : MonoBehaviour
 
 
 
+
+
     // Use this for initialization
     void Start()
     {
@@ -25,7 +27,7 @@ public class MaterialController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+      Debug.Log("Testing Atom");
 
     }
 }
